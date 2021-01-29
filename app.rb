@@ -7,4 +7,7 @@ require 'gossip'
 require 'router'
 require 'view'
 
-require_relative 'db/gossip'
+#require_relative 'db/gossip'
+
+
+Router.new.perform
